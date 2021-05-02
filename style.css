@@ -633,6 +633,35 @@ section.contato .w100 {
   padding: 8px 4px;
 }
 
+section.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  nav.menu-desktop {
+    display: none;
+  }
+  nav.menu-mobile {
+    display: block;
+  }
+
+  .card-single {
+    padding: 10px 0;
+  }
+
+  .equipe-circle-single {
+    padding: 0 8px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .card-text {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .w33,
   .w40,
@@ -683,28 +712,5 @@ section.contato .w100 {
 
   .tags-form {
     padding-left: 0px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  nav.menu-desktop {
-    display: none;
-  }
-  nav.menu-mobile {
-    display: block;
-  }
-
-  .card-single {
-    padding: 10px 0;
-  }
-
-  .equipe-circle-single {
-    padding: 0 8px;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .card-text {
-    width: 100%;
   }
 }
